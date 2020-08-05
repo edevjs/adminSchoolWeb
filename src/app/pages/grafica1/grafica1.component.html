@@ -1,3 +1,31 @@
-<p>
-  grafica1 works!
-</p>
+<div class="row">
+  <div class="col-6">
+    <app-donut
+      [title]="title1"
+      [data] = "data1"
+      [labels] = "labels1"
+    ></app-donut>
+  </div>
+  <div class="col-6">
+    <app-donut
+    [title]="title2"
+    [data] = "data2"
+    [labels] = "labels2"></app-donut>
+  </div>
+</div>
+<div class="row">
+  <div class="col-6">
+    <app-donut
+    [title]="title3"
+    [data] = "data3"
+    [labels] = "labels3"></app-donut>
+  </div>
+  <div class="col-6">
+    <app-donut
+    [title]="title4"
+    [data] = "data4"
+    [labels] = "labels4"></app-donut>
+  </div>
+</div>
+
+
